@@ -459,14 +459,6 @@ QVector<int> MainWindow::forDecypher_vector_text(QString& s) {
     return v;
 }
 QString MainWindow::decyphered_text(QVector<int>& v){
-//    QString d;
-//    for (int i = 0; i < v.size(); ++i){
-//        QString l = "0";
-//        l[0] = static_cast<char>(v[i]);
-//        d.append(l);
-//    }
-//    return d;
-
     QString d;
     QString l;
     QByteArray byteArray;
